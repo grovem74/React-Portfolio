@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/Nav'
+import About from '../src/pages/About'
+import Skills from '../src/pages/Skills'
+import Projects from '../src/pages/Projects'
+import Contact from '../src/pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1> a</h1>
+      <Nav/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

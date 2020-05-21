@@ -1,0 +1,35 @@
+body {
+    background-image: url("../images/vintage-wallpaper.png");
+}
+
+#profile-pic {
+    height: 25%;
+    width: 25%;   
+    float: left;
+    margin-right: 1em;
+}
+.nav, .footer{
+    background-color: rgba(44, 53, 93);
+}
+
+.pages {
+    min-height: 100vh;
+}
+
+.project-pics {
+    width: 55%;
+    height: 40%;
+}
+
+.btn-flat {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+    color: white;
+    border-radius: .25em;
+    margin: 5px;
+}
+
+#ycg, #bg {
+    width: 600px;
+    margin-left: 7.5em;
+}
