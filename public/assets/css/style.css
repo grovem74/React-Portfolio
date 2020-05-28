@@ -14,11 +14,12 @@ body {
 
 .pages {
     min-height: 100vh;
+    
 }
 
 .project-pics {
-    width: 55%;
-    height: 40%;
+    width: 45em;
+    /* height: 40%; */
 }
 
 .btn-flat {
@@ -28,8 +29,24 @@ body {
     border-radius: .25em;
     margin: 5px;
 }
+.reverse {
+    color: #f28500;
+}
 
-#ycg, #bg {
-    width: 600px;
-    margin-left: 7.5em;
+#contact, #skills {
+    background-image: url("../images/white_paperboard.png");
+}
+
+#ycg, #bg, #edb, #tt, #rg, #wd, #talk {
+    width: 95%;
+}
+
+nav {
+    background-color: rgba(44, 53, 93);
+    filter: brightness(150%);
+    position: fixed;
+    top: 0;
+}
+#about, #skills, #projects, #contact {
+    padding-top: 10em;
 }

@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-materialize';
 
 function About() {
   return (
-    <Container className='pages'>
+    <Container className='pages' id="about">
       <Row>
         <div className='center-align'>
           <h2>FULL STACK DEVELOPER</h2>
@@ -21,7 +21,6 @@ function About() {
           <div className='center-align'>
             <Button>Learn More</Button>
           </div>
-
         </Col>
         <Col m={3}></Col>
       </Row>
