@@ -68,11 +68,11 @@ function Projects() {
         <Col s={2}></Col>
         <Col s={8} className='center-align'>
           <h6>Eat-Da-Burger Green</h6>
-          <p id="bg" class="middle reverse">Customize a burger, then devour it! This application was built
+          <p id="edb" class="middle reverse">Customize a burger, then devour it! This application was built
           using HTML, Materialize CSS and Javascript for the front end and node.js. The following NPM packages were
           required: express, express-handlebars and mysql. An SQL server was used to store the burger data.</p>
      
-          <img src="/assets/images/eatDaBurger.png" alt="BEat-Da-Burger" class="project-pics" />
+          <img src="/assets/images/eatDaBurger.png" alt="Eat-Da-Burger" class="project-pics" />
           <div>
             <div class="center-align project-buttons">
               <a class="btn-flat" href="https://du-eat-da-burger.herokuapp.com/" target="_BLANK">Site</a>
