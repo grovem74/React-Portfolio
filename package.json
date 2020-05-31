@@ -2,10 +2,16 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://grovem74.github.io/react-portfolio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grovem74/react-portfolio.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.0.0",
     "materialize-css": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,6 +20,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
