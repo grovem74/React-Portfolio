@@ -8,11 +8,11 @@ function Contact() {
         <Col m={3}></Col>
         <Col s={12} m={6} >
           <div className='center-align'>
-            <i class="material-icons" id="chat">chat_bubble</i><br></br><br></br>
+            <i className="material-icons" id="chat">chat_bubble</i><br></br><br></br>
             <h5 id="talk-title">Let's Talk.</h5>
-            <p id="talk" class="middle">Every great relationship starts with a conversation.<br></br> I would love to chat with
+            <p id="talk" className="middle">Every great relationship starts with a conversation.<br></br> I would love to chat with
           you about your next project.</p><br></br>
-            <a class="btn-flat" href="./contactForm.html">Contact Me</a>
+            <a className="btn-flat" href="mailto:matthewg74@gmail.com" >Contact Me</a>
           </div>
 
         </Col>

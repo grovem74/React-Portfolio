@@ -66,6 +66,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 10;
+    padding: 0 2em;
 }
 
 body {
@@ -146,9 +147,9 @@ h6 {
 #profile-pic {
     border: 2px solid rgb(77, 118, 200);
     float: left;
-    margin: 1em 1em 0 .75em;
-    height: 50%;
-    width: 50%;
+    margin: .25em 1em 0 .75em;
+    height: 40%;
+    width: 40%;
 }
 
 .page-footer {
@@ -173,17 +174,23 @@ margin-top: 5em;
     right : 7.75em; 
 }
 
-#ycg, #bg, #edb, #tt, #rg, #wd, #talk {
+#ycg, #bg, #edb, #tt, #rg, #wd, #talk, #em {
     width: 95%;
 }
 
+.title{
+    font-size: 2em;
+}
 .project-pics {
     width: 45em;
 }
 #about, #skills, #projects, #contact {
-    padding-top: 10em;
+    padding-top: 7em;
 } 
 
+/* #about {
+    padding-top: 7em;
+}  */
 .reverse {
     color: #f28500;
 }
@@ -203,4 +210,12 @@ margin-top: 5em;
     font-size: 400%;
     color: #f28500;
     position: relative;
+}
+
+.learn {
+margin: 3em 7em 0 0;
+}
+
+.subtitle{
+    color: gray;
 }

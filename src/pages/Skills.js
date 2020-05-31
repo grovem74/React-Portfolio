@@ -6,7 +6,7 @@ function Skills() {
     <Container className='pages' id='skills'>
       <Row>
         <h4 className='center-align'>SKILLS</h4>
-
+<br></br><br></br><br></br><br></br>
         <Col s={2}></Col>
         <Col s={2} >
           <div className='center-align'>

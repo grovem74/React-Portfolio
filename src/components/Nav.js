@@ -7,7 +7,7 @@ function Nav() {
     <Navbar
       className='nav'
       alignLinks='right'
-      brand={<a className='brand-logo' href='#'>Logo</a>}
+      brand={<a className='brand-logo' href='#'>Matthew Grove</a>}
       id='mobile-nav'
       menuIcon={<Icon>menu</Icon>}
       options={{
