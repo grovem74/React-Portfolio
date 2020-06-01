@@ -11,3 +11,236 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../images/vintage-wallpaper.png");
+}
+
+#profile-pic {
+    height: 25%;
+    width: 25%;   
+    float: left;
+    margin-right: 1em;
+}
+.nav, .footer{
+    background-color: rgba(44, 53, 93);
+}
+
+.pages {
+    min-height: 100vh;
+    
+}
+
+.project-pics {
+    width: 45em;
+}
+
+.btn-flat {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+    color: white;
+    border-radius: .25em;
+    margin: 5px;
+}
+.reverse {
+    color: #f28500;
+}
+
+#contact, #skills {
+    background-image: url("../images/white_paperboard.png");
+}
+
+#ycg, #bg, #edb, #tt, #rg, #wd, #talk {
+    width: 95%;
+}
+
+nav {
+    background-color: rgba(44, 53, 93);
+    filter: brightness(150%);
+    position: fixed;
+    top: 0;
+}
+#about, #skills, #projects, #contact {
+    padding-top: 10em;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(44, 53, 93);
+    filter: brightness(150%);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: 0 2em;
+}
+
+body {
+    background-image: url("./assets/images/vintage-wallpaper.png");
+    font-family: roboto slab;
+    color: white;
+    /* for footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* for footer */
+
+main {
+    flex: 1 0 auto;
+}
+
+p {
+    width: 90%;
+}
+
+p.profile {
+    width: 95%;
+    margin-left: .75em;
+}
+
+.row {
+    margin: 0;
+    margin-bottom: 0em;
+}
+
+.col {
+    padding-right: 0;
+}
+
+.links {
+    margin-right: 5em;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+#name {
+    font-size: 1.75em;
+    margin-left: 5%;
+}
+
+#nav-mobile {
+    margin-right: 5%;
+}
+
+#intro, #contact {
+    position: relative;
+    top: 10em;
+    height: 100vh;
+}
+
+#skills-list {
+    position: relative;
+    top: -3.25em;
+}
+
+#profile-pic {
+    border: 2px solid rgb(77, 118, 200);
+    float: left;
+    margin: .25em 1em 0 .75em;
+    height: 40%;
+    width: 40%;
+}
+
+.page-footer {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+    text-align: center;
+margin-top: 5em;
+}
+
+.btn-flat {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+    color: white;
+    border-radius: .25em;
+    margin: 5px;
+}
+
+.social {
+    font-size: 300%;
+    padding: 8px;
+    position: relative;
+    right : 7.75em; 
+}
+
+#ycg, #bg, #edb, #tt, #rg, #wd, #talk, #em {
+    width: 95%;
+}
+
+.title{
+    font-size: 2em;
+}
+.project-pics {
+    width: 45em;
+}
+#about, #skills, #projects, #contact {
+    padding-top: 7em;
+} 
+
+/* #about {
+    padding-top: 7em;
+}  */
+.reverse {
+    color: #f28500;
+}
+
+#contact, #skills {
+    background-image: url("./assets/images/white_paperboard.png");
+    color: rgb(44, 53, 93);
+    height: 100vh;
+}
+
+.pages {
+    min-height: 100vh;
+   
+}
+
+#chat {
+    font-size: 400%;
+    color: #f28500;
+    position: relative;
+}
+
+.learn {
+margin: 3em 7em 0 0;
+}
+
+.subtitle{
+    color: gray;
+}

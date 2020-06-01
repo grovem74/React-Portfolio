@@ -29,13 +29,13 @@ function About() {
         <Col m={1}></Col>
         <Col s={12} m={10}>
           <div>
-            <img id='profile-pic' className='responsive image' src='../assets/images/profileBW.jpg' />
+            <img id='profile-pic' className='responsive image' src={require('../assets/images/profileBW.jpg')} />
             <p> I have always had a strong interest in technology. Going back to the days of the early
             video game consoles, I found it fascinating that lines of computer code could translate into sophisticated,
           interactive experiences. The possibilities that technology provide are limited only by the imagination.</p>
           </div>
           <div className='center-align'>
-            <a className='btn-flat learn' href="../../assets/Resume.pdf">Download Resume</a>
+            <a className='btn-flat learn' href={require("../assets/Resume.pdf")}>Download Resume</a>
           </div>
         </Col>
         <Col m={1}></Col>
